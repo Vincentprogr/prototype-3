@@ -1,0 +1,39 @@
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+form {
+	text-align: left;
+	font-size: 20px;
+}
+.form {
+	display: grid;
+	grid-template-columns: 100px;
+	grid-template-rows: auto auto auto auto auto auto;
+}
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+form button[type="submit"] {
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+}
+.doorgevenButton {
+	margin: 10px 0;
+}
+.tijden-grid {
+	display: inline-grid;
+	grid-template-columns: 25px 80px 125px 65px 65px 150px 100px;
+	grid-template-rows: auto;
+	border: 1px solid;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+.tijden-item-grid {
+	border: 1px solid;
+	margin: 0;
+	height: 20px;
+}

@@ -1,0 +1,26 @@
+<div class="container">
+	<h1>Overzicht</h1>
+	<div class="tijden-grid">
+
+			<p class="tijden-item-grid">0: </p>
+			<p class="tijden-item-grid">Datum </p>
+			<p class="tijden-item-grid">Werf </p>
+			<p class="tijden-item-grid">Beginuur </p>
+			<p class="tijden-item-grid">Einduur </p>
+			<p class="tijden-item-grid">Naam </p>
+			<p class="tijden-item-grid">Diensten </p>
+		
+		{{#each werftijden}}
+		
+			<p class="tijden-item-grid">{{id}}: </p>
+			<p class="tijden-item-grid">{{Datum}} </p>
+			<p class="tijden-item-grid">{{Werf}} </p>
+			<p class="tijden-item-grid">{{Beginuur}} </p>
+			<p class="tijden-item-grid">{{Einduur}} </p>
+			<p class="tijden-item-grid">{{Naam}} </p>
+			<p class="tijden-item-grid">{{Diensten}} </p>
+		
+		{{/each}}	
+
+	</div>
+</div>
